@@ -2,7 +2,7 @@ const getCurrentUser = () => {
   return {
     id: 1,
     email: "mgargano@gmail.com",
-    name: "Mat Gargano",
+    name: "Ali Abbas",
     bio: "The quick brown fox.....",
     avatar: "https://placebear.com/200/200",
   };
@@ -25,6 +25,25 @@ const getLinks = (userId) => {
       order: 2,
       linkType: "social",
       title: "Facebook",
+      
+    },
+    {
+      id:6,
+      userId: 1,
+      url: "https://instagram.com/foobar",
+      order: 2,
+      linkType: "social",
+      title: "Instagram",
+      
+    },
+    {
+      id: 8,
+      userId: 1,
+      url: "https://snapchat.com/foobar",
+      order: 2,
+      linkType: "social",
+      title: "Snapchat",
+      
     },
     {
       id: 3,
@@ -32,7 +51,7 @@ const getLinks = (userId) => {
       url: "https://mycompany.com",
       order: 1,
       linkType: "link",
-      title: "My Company!",
+      title: "Link 1",
     },
     {
       id: 4,
@@ -40,8 +59,25 @@ const getLinks = (userId) => {
       url: "https://myteam.com",
       order: 2,
       linkType: "link",
-      title: "Go sportsball Go",
+      title: "Link 2",
     },
+    {
+      id: 4,
+      userId: 1,
+      url: "https://instagram.com",
+      order: 2,
+      linkType: "link",
+      title: "Link 3",
+    },
+    {
+      id: 4,
+      userId: 1,
+      url: "https://facebook.com",
+      order: 2,
+      linkType: "link",
+      title: "Link 4",
+    },
+
   ];
 };
 

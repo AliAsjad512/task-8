@@ -4,7 +4,7 @@ const links = getLinksLinks();
 
 const LinksLinks = () => {
   return (
-    <div className="barge flex flex-col gap-[24px] pb-[60px]">
+    <div className="barge flex flex-col gap-[24px] pb-[40px]">
       {links.map(({ id, title, url }) => {
         return (
           <a
